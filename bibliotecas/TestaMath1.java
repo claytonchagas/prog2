@@ -26,10 +26,32 @@ public class TestaMath1 {
 		double d5 = 4.9999999999999;
 		System.out.println(Math.floor(d5));
 		
+		System.out.println(Math.exp(1));
+		
+		System.out.println(Math.log(4));
+		
+		double d6 = Math.log(16) / Math.log(2);
+		
+		System.out.println(d6);
+		
+		//Math.sin retorna o seno do angulo
+		System.out.println(Math.sin(180));
+		
+		//Math.toDegrees Converte radiano em graus.
+		System.out.println(Math.toDegrees(3.141592653589793));
+		
+		//Math.toRadians Converte graus em radianos
+		System.out.println(Math.toRadians(180));
+		
+		
 		//implementar >>TestaMath2 e testar Math.exp, 
 		//Math.log, Math.pow, Math.sqrt, log de a na base b
 		//implementar >>TestaMath3 e ver a diferença de Math.sin
 		//e Math.toDegrees, Math.toRadians
+		
+		float num1 = 3.3f;
+		float num2 = 3.4f;
+		System.out.println("Math.min(): "+Math.min(num1,num2));
 		
 	}
 }
